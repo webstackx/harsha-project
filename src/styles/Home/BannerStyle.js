@@ -24,7 +24,7 @@ export const BannerWrap = styled.div`
   }
 
   .container {
-    padding: 0 10%;
+    padding: 0 9%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -74,6 +74,7 @@ export const BannerWrap = styled.div`
     font-style: 600;
     line-height: 170%;
     width: 45%;
+    text-align: right;
 
     &__para1 {
       color: #a5a6a8;

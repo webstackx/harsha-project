@@ -88,23 +88,25 @@ export const ContactUsWrap = styled.div`
     &-form {
       display: flex;
       flex-direction: column;
-      flex: 0 0 60%;
+      flex: 0 0 100%;
       justify-content: center;
       /* align-items: center; */
 
       &-input {
         display: flex;
-        margin: 0.5rem 0;
+        margin-bottom: 0.5rem;
         justify-content: space-between;
         ${media.mobile} {
           flex-direction: column;
         }
         &-1 {
-          width: 40%;
+          /* width: 40%; */
           padding: 1rem;
           background-color: #e5edf4;
           border: none;
-          margin: 1rem 0;
+          border-radius: 5px;
+          margin-bottom: 1rem;
+
           ${media.mobile} {
           }
           ${media.mobile} {
@@ -113,6 +115,9 @@ export const ContactUsWrap = styled.div`
             padding: 0.8rem;
           }
         }
+        &-1:focus {
+          outline: none;
+        }
       }
       &-input2 {
         margin: 1rem 0;
@@ -120,6 +125,7 @@ export const ContactUsWrap = styled.div`
         padding: 1rem;
         background-color: #e5edf4;
         border: none;
+        border-radius: 5px;
         ${media.mobile} {
           padding: 0.8rem 0;
         }
@@ -127,17 +133,24 @@ export const ContactUsWrap = styled.div`
           background-color: white;
         }
       }
+      &-input2:focus {
+        outline: none;
+      }
       &-input3 {
         /* margin: 1rem 0; */
         padding: 1rem;
         background-color: #e5edf4;
         border: none;
+        border-radius: 5px;
+      }
+      &-input3:focus {
+        outline: none;
       }
       &-button {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 150px;
+        width: 100%;
         color: #fff;
         background-color: #0e76a8;
         border: none;
@@ -146,7 +159,7 @@ export const ContactUsWrap = styled.div`
         font-size: 1.1rem;
         cursor: pointer;
         letter-spacing: 1px;
-        margin: 1rem 0;
+        margin: 2rem 0;
         border-radius: 5px;
         span {
           display: flex;

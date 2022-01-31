@@ -15,7 +15,7 @@ const ContactUs = () => {
     <ContactUsWrap>
       <div className="contact-header">Contact Us</div>
       <div className="contact-section">
-        <div className="contact-section-basic">
+        {/* <div className="contact-section-basic">
           <div className="contact-section-basic-details">
             <FiPhone />
             <div className="contact-section-basic-details-data">
@@ -49,22 +49,22 @@ const ContactUs = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="contact-section-form">
-          <div className="contact-section-form-input">
-            <input
-              className="contact-section-form-input-1"
-              type="text"
-              placeholder="Name"
-              onChange={(e) => setName(e)}
-            />
-            <input
-              className="contact-section-form-input-1"
-              type="text"
-              placeholder="Email"
-              onChange={(e) => setEmail(e)}
-            />
-          </div>
+          {/* <div className="contact-section-form-input"> */}
+          <input
+            className="contact-section-form-input-1"
+            type="text"
+            placeholder="Name"
+            onChange={(e) => setName(e)}
+          />
+          <input
+            className="contact-section-form-input-1"
+            type="text"
+            placeholder="Email"
+            onChange={(e) => setEmail(e)}
+          />
+          {/* </div> */}
           <select
             className="contact-section-form-input2"
             onChange=""
