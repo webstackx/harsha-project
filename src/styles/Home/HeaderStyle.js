@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 const lightTheme = {
   bgColor: "rgba(0, 0, 0, 0.9)",
-  logoColor: "#222222",
-  navColor: "#454547",
+  logoColor: "#FFFFFF",
+  navColor: "#a5a6a8",
 };
 
 const media = {
@@ -22,11 +22,11 @@ export const HeaderWrap = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background: ${(props) => (props.isBackground ? "#ffffff" : "#ffffff")};
+  background: #171c28;
   transition: all 0.5s ease-in-out;
   transform: translateY(-0.2rem);
   box-shadow: ${(props) =>
-    props.isBackground ? "6px 1px 8px rgba(0, 0, 0, 0.2)" : ""};
+    props.isBackground ? "6px 1px 8px rgba(0, 0, 0, 0.4)" : ""};
 
   .logoName {
     width: 40%;
@@ -50,6 +50,7 @@ export const HeaderWrap = styled.div`
       padding: 1rem 0;
       font-size: 2rem;
       font-weight: 600;
+      color: #ffffff;
 
       ${media.mobile} {
         padding: 0.2rem 0;
@@ -73,7 +74,7 @@ export const HeaderWrap = styled.div`
     &__para {
       transition: all 0.5s ease-in-out;
       &:hover {
-        color: #7b60d1;
+        color: #0e76a8;
         cursor: pointer;
         transform: scale(1.15);
       }

@@ -1,9 +1,9 @@
 import React from "react";
-import workplace from "../../images/workplace.png";
+import workplace from "../../images/harsha/bannerImage.gif";
 import facebook from "../../images/facebook-f.svg";
 import linkedinAlt from "../../images/linkedin-alt.svg";
 import mouseAlt from "../../images/mouse-alt.svg";
-import arrowDown from "../../images/arrow-down.svg";
+import arrowDown from "../../images/harsha/downArrow.gif";
 import whatsapp from "../../images/whatsapp.svg";
 import { BannerWrap } from "../../styles/Home/BannerStyle";
 
@@ -11,10 +11,13 @@ export default function Banner(props) {
   return (
     <BannerWrap>
       <div className="container">
-        <div className="bannerSocial">
+        {/* <div className="bannerSocial">
           <img src={facebook} alt="" className="bannerSocial__facebook" />
           <img src={linkedinAlt} alt="" className="bannerSocial__linkedIn" />
           <img src={whatsapp} alt="" className="bannerSocial__whatsApp" />
+        </div> */}
+        <div className="bannerIcon">
+          <img className="bannerIcon__img" src={workplace} alt="" />
         </div>
         <div className="bannerQuote">
           <div className="bannerQuote__para1">Hi, Welcome to</div>
@@ -23,28 +26,15 @@ export default function Banner(props) {
             Solution for Semi & Un-Skilled Labours requirement
           </div>
         </div>
-        <div className="bannerIcon">
-          <img className="bannerIcon__img" src={workplace} alt="" />
-        </div>
       </div>
       <div className="gifDiv">
-        {!props.isBackground ? (
-          <div className="gifDiv__Container">
-            <img
-              className="gifDiv__Container--mouse"
-              src={mouseAlt}
-              alt="swipe"
-            />
-            <div className="gifDiv__Container--para">Scroll down</div>
-            <img
-              className="gifDiv__Container--arrow"
-              src={arrowDown}
-              alt="swipe"
-            />
-          </div>
-        ) : (
-          ""
-        )}
+        <div className="gifDiv__Container">
+          {!props.isBackground ? (
+            <img src={arrowDown} alt="" style={{ width: "100px" }} />
+          ) : (
+            ""
+          )}
+        </div>
       </div>
     </BannerWrap>
   );
@@ -57,3 +47,17 @@ export default function Banner(props) {
         <span id="TextField3">organization</span>
     </div> */
 }
+
+// <div className="gifDiv__Container">
+//   <img
+//     className="gifDiv__Container--mouse"
+//     src={mouseAlt}
+//     alt="swipe"
+//   />
+//   <div className="gifDiv__Container--para">Scroll down</div>
+//   <img
+//     className="gifDiv__Container--arrow"
+//     src={arrowDown}
+//     alt="swipe"
+//   />
+// </div>

@@ -23,7 +23,7 @@ export const NavbarWrap = styled.div`
   }
 
   .navbarContainer {
-    background-color: #7b60d1;
+    background-color: #0e76a8;
     width: 45%;
     height: 100vh;
     padding: 0 1.3rem;
@@ -45,7 +45,7 @@ export const NavbarWrap = styled.div`
     }
 
     &__contents {
-      /* color: #222222; */
+      /* color: #FFFFFF; */
       color: #ffffff;
 
       &--para {

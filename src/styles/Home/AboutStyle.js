@@ -17,7 +17,7 @@ export const AboutWrap = styled.div`
     width: 84vw;
   }
   .about-header {
-    color: #222;
+    color: #ffffff;
     font-size: 2.5rem;
     text-align: center;
     padding: 3rem;
@@ -30,7 +30,7 @@ export const AboutWrap = styled.div`
   .about-body {
     text-align: justify;
     line-height: 1.8;
-    color: #454547;
+    color: #ffffff;
     opacity: 0.7;
   }
 
@@ -45,7 +45,7 @@ export const AboutWrap = styled.div`
       margin: 0 auto;
       width: 150px;
       color: #fff;
-      background-color: #7b60d1;
+      background-color: #0e76a8;
       border: none;
       padding: 0.8rem;
       font-size: 1.1rem;
@@ -68,7 +68,7 @@ export const AboutWrap = styled.div`
   .about-fullbody1 {
     text-align: justify;
     line-height: 1.8;
-    color: #454547;
+    color: #ffffff;
     opacity: 0.7;
   }
 `;

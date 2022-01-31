@@ -21,7 +21,7 @@ export const ContactUsWrap = styled.div`
     font-size: 2.5rem;
     text-align: center;
     padding: 3rem;
-    color: #222;
+    color: #ffffff;
     ${media.mobile} {
       font-size: 1.5rem;
       padding: 1.5rem;
@@ -43,7 +43,7 @@ export const ContactUsWrap = styled.div`
         /* justify-content: center; */
         align-items: center;
         font-size: 2rem;
-        color: #7b60d1;
+        color: #0e76a8;
         padding: 1rem;
         /* flex: 0 0 40%; */
         ${media.mobile} {
@@ -60,6 +60,7 @@ export const ContactUsWrap = styled.div`
             font-size: 1.6rem;
             padding: 0.5rem 0;
             letter-spacing: 1px;
+            color: #ffffff;
           }
           &-phone {
             display: flex;
@@ -138,7 +139,7 @@ export const ContactUsWrap = styled.div`
         justify-content: center;
         width: 150px;
         color: #fff;
-        background-color: #7b60d1;
+        background-color: #0e76a8;
         border: none;
         padding: 1rem;
         color: #fff;

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const LightTheme = {
-  BgColor: "#7b60d1",
+  BgColor: "#0e76a8",
   Color: "#fff",
 };
 
@@ -40,9 +40,9 @@ export const FooterWrap = styled.div`
     justify-content: center;
     margin-top: 1rem;
 
-      ${media.mobile} {
-           margin-top: 0.1rem;
-        }
+    ${media.mobile} {
+      margin-top: 0.1rem;
+    }
 
     &-Text {
       font-size: 2rem;
@@ -52,7 +52,7 @@ export const FooterWrap = styled.div`
         font-size: 1.8rem;
       }
     }
-    p{
+    p {
       margin-top: 0.5rem;
       ${media.mobile} {
         margin-top: 0.3rem;
@@ -75,8 +75,8 @@ export const FooterWrap = styled.div`
       cursor: pointer;
       height: 1.5rem;
 
-        ${media.mobile} {
-          margin: 0.3rem 0;
+      ${media.mobile} {
+        margin: 0.3rem 0;
       }
     }
   }
@@ -138,7 +138,7 @@ export const FooterWrap = styled.div`
     justify-content: center;
 
     ${media.mobile} {
-          text-align: center;
+      text-align: center;
     }
   }
 

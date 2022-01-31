@@ -29,7 +29,7 @@ export const BannerWrap = styled.div`
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-top: 15rem;
+    padding-top: 10rem;
 
     ${media.mobile} {
       padding: 0;
@@ -69,14 +69,14 @@ export const BannerWrap = styled.div`
   }
 
   .bannerQuote {
-    color: #222222;
+    color: #0e76a8;
     font-size: 2.5rem;
     font-style: 600;
     line-height: 170%;
     width: 45%;
 
     &__para1 {
-      color: #454547;
+      color: #a5a6a8;
 
       ${media.smallMobile} {
         font-size: 1.3rem;
@@ -139,7 +139,7 @@ export const BannerWrap = styled.div`
   }
 
   .bannerIcon {
-    width: 30%;
+    width: 45%;
 
     ${media.mobile} {
       order: 1;
@@ -176,6 +176,7 @@ export const BannerWrap = styled.div`
       display: flex;
       flex-direction: row;
       align-items: center;
+      justify-content: center;
 
       &--mouse,
       &--arrow {
