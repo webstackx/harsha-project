@@ -71,5 +71,6 @@ export const AboutWrap = styled.div`
     line-height: 1.8;
     color: #ffffff;
     opacity: 0.7;
+    margin-top: 2rem;
   }
 `;

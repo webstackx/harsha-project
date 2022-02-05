@@ -46,7 +46,7 @@ class Home extends Component {
   loaderSet = () => {
     setTimeout(() => {
       this.setState({ isLoader: false });
-    }, 2000);
+    }, 3000);
   };
 
   gotoTop = () => {

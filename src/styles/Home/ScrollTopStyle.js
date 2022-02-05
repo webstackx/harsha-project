@@ -16,11 +16,11 @@ export const ScrollTopWrap = styled.div`
   }
 
   .div {
-    background: #0e76a8;
-    border: 0.5px solid #171c28;
+    background: #88bbeb;
+    border: 2px solid #171c28;
     border-radius: 5px;
     padding: 0.5rem 0.6rem 0.4rem;
-    color: #ffffff;
+    color: #171c28;
     font-size: 1.6rem;
     font-weight: bolder;
   }

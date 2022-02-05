@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 const LightTheme = {
-  BgColor: "#0e76a8",
-  Color: "#fff",
+  BgColor: "#88bbeb",
+  Color: "#171c28",
 };
 
 const media = {
@@ -62,6 +62,28 @@ export const FooterWrap = styled.div`
   }
   .FooterNavLinks {
     display: flex;
+    flex-direction: column;
+
+    ${media.mobile} {
+      flex-direction: column;
+      margin-top: 1rem;
+    }
+
+    &-Item {
+      font-size: 1rem;
+      margin: 0 1rem;
+      cursor: pointer;
+      height: 1.5rem;
+
+      ${media.mobile} {
+        margin: 0.3rem 0;
+      }
+    }
+  }
+
+  .FooterNavLinks2 {
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
 
     ${media.mobile} {
@@ -85,6 +107,19 @@ export const FooterWrap = styled.div`
     display: flex;
     /* align-items: center; */
     justify-content: center;
+    flex-direction: column;
+    /* padding-top: 5rem; */
+
+    ${media.mobile} {
+      margin-top: 2.5rem;
+    }
+  }
+
+  .Footer-Social2 {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 0.5rem;
     /* padding-top: 5rem; */
 
     ${media.mobile} {
@@ -133,7 +168,7 @@ export const FooterWrap = styled.div`
   }
 
   .Footer-Copyright {
-    padding-top: 1rem;
+    padding-top: 4rem;
     display: flex;
     justify-content: center;
 
@@ -144,7 +179,7 @@ export const FooterWrap = styled.div`
 
   .emailHref {
     text-decoration: none;
-    color: #ffffff;
+    color: #171c28;
 
     /* &:hover {
       color: #bb001b;

@@ -5,7 +5,7 @@ const media = {
 };
 
 export const LoaderWrap = styled.div`
-  background: #ffffff;
+  background: #252d40;
   display: grid;
   place-items: center;
   width: 100%;

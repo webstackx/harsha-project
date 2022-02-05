@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
 import { LoaderWrap } from "./LoaderStyle";
-import loading from "../../images/loading.gif";
+import loading from "../../images/harsha/loading.gif";
 export default function Loader() {
   useEffect(() => {
     Aos.init({
