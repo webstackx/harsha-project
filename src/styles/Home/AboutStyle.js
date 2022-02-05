@@ -9,7 +9,7 @@ const media = {
 export const AboutWrap = styled.div`
   width: 80vw;
   margin: 0 auto;
-  padding-bottom: 3rem;
+  padding-bottom: 5rem;
 
   ${media.mobile} {
     width: 86vw;

@@ -33,19 +33,15 @@ const About = () => {
         The service offered by us are a benchmark. We adhere to be our best and
         dedicate our service to create value to our customers.
       </div>
-      <div className="about-button">
+      {/* <div className="about-button">
         <a href={btrack} download="BTrack">
           <button className="about-button-1" onClick={handleClick}>
             Download &nbsp;
             <MdFileDownload />
           </button>
         </a>
-      </div>
-      <div
-        className={
-          classname === "about-fullbody" ? "about-fullbody" : "about-fullbody1"
-        }
-      >
+      </div> */}
+      <div className={"about-fullbody1"}>
         In the near future, this business aims to expand its line of products
         and services and cater to a larger client base. In Bangalore, this
         establishment occupies a prominent location in Yelahanka. It is an
@@ -56,8 +52,8 @@ const About = () => {
         Statutory Compliance, Complete Labour Law related Service.
         <br />
         <br />
-        “THE EQUALS Pvt Ltd”is a team of Experienced Professionalsinthe business
-        of Human Resource Knowledge Processing Services.
+        “THE EQUALS Pvt Ltd” is a team of Experienced Professionalsinthe
+        business of Human Resource Knowledge Processing Services.
         <br />
         <br />
         We are pleased to describe ourselves as a Expertise in the areas of
