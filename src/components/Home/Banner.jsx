@@ -5,35 +5,25 @@ import linkedinAlt from "../../images/linkedin-alt.svg";
 import mouseAlt from "../../images/mouse-alt.svg";
 import arrowDown from "../../images/harsha/downArrow.gif";
 import whatsapp from "../../images/whatsapp.svg";
+import { Link } from "react-scroll";
 import { BannerWrap } from "../../styles/Home/BannerStyle";
+import BannerImage from "../../images/harsha/bannerImage.jpg";
 
 export default function Banner(props) {
   return (
     <BannerWrap>
       <div className="container">
-        {/* <div className="bannerSocial">
-          <img src={facebook} alt="" className="bannerSocial__facebook" />
-          <img src={linkedinAlt} alt="" className="bannerSocial__linkedIn" />
-          <img src={whatsapp} alt="" className="bannerSocial__whatsApp" />
-        </div> */}
-        <div className="bannerIcon">
-          <img className="bannerIcon__img" src={workplace} alt="" />
-        </div>
         <div className="bannerQuote">
           <div className="bannerQuote__para1">Hi, Welcome to</div>
-          <div className="bannerQuote__para2">COMPANY NAME</div>
+          <div className="bannerQuote__para2">THE EQUALS</div>
           <div className="bannerQuote__para3">
             Solution for Semi & Un-Skilled Labours requirement
           </div>
-        </div>
-      </div>
-      <div className="gifDiv">
-        <div className="gifDiv__Container">
-          {!props.isBackground ? (
-            <img src={arrowDown} alt="" style={{ width: "100px" }} />
-          ) : (
-            ""
-          )}
+          <button className="bannerQuote__button">
+            <Link to={"Contact"} smooth={true}>
+              Book an appointment
+            </Link>
+          </button>
         </div>
       </div>
     </BannerWrap>

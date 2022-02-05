@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import bg from "../../images/harsha/bannerImage.jpg";
+import bg1 from "../../images/harsha/bannerImage1.jpg";
 
 const media = {
   tab: "@media(max-width:992px)",
@@ -6,11 +8,14 @@ const media = {
 };
 
 export const ContactUsWrap = styled.div`
-  width: 60vw;
-  margin: 0 auto;
+  width: 100%;
   padding: 2rem 0;
-  padding-bottom: 4rem;
+  padding-bottom: 3rem;
   padding-top: 0;
+  background-image: url(${bg1});
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   ${media.tab} {
     width: 80vw;
   }
@@ -21,15 +26,16 @@ export const ContactUsWrap = styled.div`
     font-size: 2.5rem;
     text-align: center;
     padding: 3rem;
-    color: #ffffff;
+    color: #252d40;
+    font-weight: bolder;
     ${media.mobile} {
       font-size: 1.5rem;
       padding: 1.5rem;
     }
   }
   .contact-section {
-    display: flex;
-    flex-direction: row;
+    width: 40%;
+    margin: 0 auto;
     ${media.mobile} {
       flex-direction: column;
     }
@@ -44,7 +50,7 @@ export const ContactUsWrap = styled.div`
         align-items: center;
         font-size: 2rem;
         color: #0e76a8;
-        padding: 1rem;
+        padding: 0.5rem;
         /* flex: 0 0 40%; */
         ${media.mobile} {
           justify-content: center;
@@ -86,13 +92,15 @@ export const ContactUsWrap = styled.div`
       }
     }
     &-form {
+      font-family: "Ubuntu", sans-serif;
       display: flex;
       flex-direction: column;
       flex: 0 0 100%;
       justify-content: center;
-      /* align-items: center; */
+      align-items: center;
 
       &-input {
+        font-family: "Ubuntu", sans-serif;
         display: flex;
         margin-bottom: 0.5rem;
         justify-content: space-between;
@@ -100,11 +108,12 @@ export const ContactUsWrap = styled.div`
           flex-direction: column;
         }
         &-1 {
-          /* width: 40%; */
-          padding: 1rem;
-          background-color: #e5edf4;
+          width: 100%;
+          padding: 0.6rem 0;
+          background-color: transparent;
           border: none;
-          border-radius: 5px;
+          border-bottom: 2px solid #252d40;
+          /* border-radius: 5px; */
           margin-bottom: 1rem;
 
           ${media.mobile} {
@@ -120,12 +129,14 @@ export const ContactUsWrap = styled.div`
         }
       }
       &-input2 {
+        font-family: "Ubuntu", sans-serif;
         margin: 1rem 0;
         margin-top: 0;
-        padding: 1rem;
-        background-color: #e5edf4;
+        padding: 0.6rem 0;
+        background-color: transparent;
         border: none;
-        border-radius: 5px;
+        border-bottom: 2px solid #252d40;
+        width: 100%;
         ${media.mobile} {
           padding: 0.8rem 0;
         }
@@ -137,30 +148,36 @@ export const ContactUsWrap = styled.div`
         outline: none;
       }
       &-input3 {
-        /* margin: 1rem 0; */
-        padding: 1rem;
-        background-color: #e5edf4;
+        font-family: "Ubuntu", sans-serif;
+        width: 100%;
+        padding: 0.6rem 0;
+        background-color: transparent;
         border: none;
-        border-radius: 5px;
+        border-bottom: 2px solid #252d40;
+        /* border-radius: 5px; */
       }
       &-input3:focus {
+        font-family: "Ubuntu", sans-serif;
         outline: none;
       }
       &-button {
+        font-family: "Ubuntu", sans-serif;
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 100%;
+        width: 200px;
         color: #fff;
-        background-color: #0e76a8;
+        background-color: #252d40;
         border: none;
         padding: 1rem;
-        color: #fff;
-        font-size: 1.1rem;
+        color: #ffffff;
+        font-size: 1rem;
+        font-weight: bold;
         cursor: pointer;
         letter-spacing: 1px;
         margin: 2rem 0;
-        border-radius: 5px;
+        margin-top: 4rem;
+        border-radius: 50px;
         span {
           display: flex;
           align-items: center;

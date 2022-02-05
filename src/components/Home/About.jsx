@@ -28,7 +28,7 @@ const About = () => {
         <br />
       </div> */}
       <div className="about-body">
-        COMPANY NAME strives to provide the best solutions to customers through
+        THE EQUALS strives to provide the best solutions to customers through
         innovation, commitment to quality, and strict compliance to standards.
         The service offered by us are a benchmark. We adhere to be our best and
         dedicate our service to create value to our customers.
@@ -56,8 +56,8 @@ const About = () => {
         Statutory Compliance, Complete Labour Law related Service.
         <br />
         <br />
-        “COMPANY NAME Pvt Ltd”is a team of Experienced Professionalsinthe
-        business of Human Resource Knowledge Processing Services.
+        “THE EQUALS Pvt Ltd”is a team of Experienced Professionalsinthe business
+        of Human Resource Knowledge Processing Services.
         <br />
         <br />
         We are pleased to describe ourselves as a Expertise in the areas of

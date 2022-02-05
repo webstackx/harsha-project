@@ -3,7 +3,7 @@ import styled from "styled-components";
 const lightTheme = {
   bgColor: "rgba(0, 0, 0, 0.9)",
   logoColor: "#FFFFFF",
-  navColor: "#a5a6a8",
+  navColor: "#e0e0e0",
 };
 
 const media = {
@@ -22,11 +22,11 @@ export const HeaderWrap = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background: #171c28;
+  background: ${(props) =>
+    props.isBackground ? "#171c28" : "rgba(23, 28, 40, 0.6)"};
   transition: all 0.5s ease-in-out;
   transform: translateY(-0.2rem);
-  box-shadow: ${(props) =>
-    props.isBackground ? "6px 1px 8px rgba(0, 0, 0, 0.4)" : ""};
+  box-shadow: 6px 1px 8px rgba(0, 0, 0, 0.4);
 
   .logoName {
     width: 40%;
@@ -63,9 +63,9 @@ export const HeaderWrap = styled.div`
     width: 30%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     color: ${lightTheme.navColor};
-    margin-right: 9%;
+    margin-right: 3%;
 
     ${media.mobile} {
       display: none;
@@ -74,7 +74,29 @@ export const HeaderWrap = styled.div`
     &__para {
       transition: all 0.5s ease-in-out;
       &:hover {
-        color: #0e76a8;
+        /* color: #0e76a8; */
+        cursor: pointer;
+        transform: scale(1.15);
+      }
+    }
+  }
+
+  .contents1 {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: ${lightTheme.navColor};
+    margin-left: 3%;
+
+    ${media.mobile} {
+      display: none;
+    }
+
+    &__para {
+      transition: all 0.5s ease-in-out;
+      &:hover {
+        /* color: #0e76a8; */
         cursor: pointer;
         transform: scale(1.15);
       }

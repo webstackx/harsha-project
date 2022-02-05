@@ -13,7 +13,7 @@ const ContactUs = () => {
   console.log("aaaaaaaa : ", name, email, service, description);
   return (
     <ContactUsWrap>
-      <div className="contact-header">Contact Us</div>
+      <div className="contact-header">Contact</div>
       <div className="contact-section">
         {/* <div className="contact-section-basic">
           <div className="contact-section-basic-details">
@@ -91,12 +91,7 @@ const ContactUs = () => {
             rows="10"
             onChange={(e) => setDescription(e)}
           />
-          <button className="contact-section-form-button">
-            SUBMIT{" "}
-            <span>
-              <BiSend />
-            </span>
-          </button>
+          <button className="contact-section-form-button">SUBMIT</button>
         </div>
       </div>
     </ContactUsWrap>

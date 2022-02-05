@@ -17,7 +17,7 @@ export const ScrollTopWrap = styled.div`
 
   .div {
     background: #0e76a8;
-    border: 0.5px solid #ffffff;
+    border: 0.5px solid #171c28;
     border-radius: 5px;
     padding: 0.5rem 0.6rem 0.4rem;
     color: #ffffff;

@@ -12,7 +12,7 @@ function Footer() {
       <div className="Footer">
         <div className="Footer-Container">
           <div className="FooterLogo">
-            <div className="FooterLogo-Text">COMPANY NAME</div>
+            <div className="FooterLogo-Text">THE EQUALS</div>
             <p>Future Employee Solutions</p>
           </div>
           <div className="FooterNavLinks">
@@ -56,7 +56,7 @@ function Footer() {
           </div>
         </div>
         <div className="Footer-Copyright">
-          © 2021 COMPANY NAME Pvt. Ltd. All Rights Reserved .
+          © 2021 THE EQUALS Pvt. Ltd. All Rights Reserved .
         </div>
       </div>
     </FooterWrap>

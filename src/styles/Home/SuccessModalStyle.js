@@ -54,7 +54,6 @@ export const SuccessModalWrap = styled.div`
       }
 
       &--para {
-        font-family: "Kanit", sans-serif;
         color: #5cd672;
         font-size: 1.2rem;
         padding: 2rem;

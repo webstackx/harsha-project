@@ -25,7 +25,7 @@ class Home extends Component {
 
   componentDidMount() {
     window.onscroll = () => {
-      if (document.documentElement.scrollTop > 10) {
+      if (document.documentElement.scrollTop > 500) {
         this.setState({ isBackground: true });
       } else {
         this.setState({ isBackground: false });
@@ -86,8 +86,6 @@ class Home extends Component {
       <div className="Home">
         <Header isBackground={isBackground} toggleNavbar={this.toggleNavbar} />
         <Banner isBackground={isBackground} />
-        <div id="About"></div>
-        <About />
         <div id="Services"></div>
         <Features />
         <div id="Contact"></div>
@@ -96,6 +94,8 @@ class Home extends Component {
           emailArray={emailArray}
           toggleSuccess={this.toggleSuccess}
         />
+        <div id="About"></div>
+        <About />
         <Footer />
         {isBackground ? <ScrollTop gotoTop={this.gotoTop} /> : ""}
         {isNavbar ? <Navbar toggleNavbar={this.toggleNavbar} /> : ""}

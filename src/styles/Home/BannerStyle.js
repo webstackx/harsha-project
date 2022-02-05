@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import bg from "../../images/webstackxBg1.jpg";
+import bg from "../../images/harsha/bannerImage.jpg";
 
 const lightTheme = {
   bgColor: "#e8edff",
@@ -15,6 +15,10 @@ const media = {
 export const BannerWrap = styled.div`
   width: 100%;
   height: 100vh;
+  background-image: url(${bg});
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
 
   ${media.tabs} {
     display: flex;
@@ -27,9 +31,9 @@ export const BannerWrap = styled.div`
     padding: 0 9%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
-    padding-top: 10rem;
+    padding-top: 20%;
 
     ${media.mobile} {
       padding: 0;
@@ -69,7 +73,7 @@ export const BannerWrap = styled.div`
   }
 
   .bannerQuote {
-    color: #0e76a8;
+    color: #252d40;
     font-size: 2.5rem;
     font-style: 600;
     line-height: 170%;
@@ -77,7 +81,8 @@ export const BannerWrap = styled.div`
     text-align: right;
 
     &__para1 {
-      color: #a5a6a8;
+      color: #ffffff;
+      margin-bottom: 0.8rem;
 
       ${media.smallMobile} {
         font-size: 1.3rem;
@@ -109,8 +114,8 @@ export const BannerWrap = styled.div`
     &__para3 {
       font-size: 2rem;
       line-height: 130%;
-      margin-top: 1.2rem;
-      color: #acacb0;
+      margin-top: 2rem;
+      color: #ffffff;
 
       ${media.mobile} {
         font-size: 1.5rem;
@@ -124,6 +129,21 @@ export const BannerWrap = styled.div`
       ${media.iSmallMobile} {
         font-size: 0.9rem;
       }
+    }
+
+    &__button {
+      font-family: "Ubuntu", sans-serif;
+      background: #252d40;
+      border: none;
+      border-radius: 50px;
+      color: #ffffff;
+      padding: 15px 10px;
+      width: 400px;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      word-spacing: 0.2rem;
+      font-weight: bold;
+      margin-top: 3rem;
     }
 
     ${media.mobile} {
